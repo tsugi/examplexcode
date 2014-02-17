@@ -440,7 +440,7 @@
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
+				VALIDATE_PRODUCT = NO;
 			};
 			name = Release;
 		};
@@ -450,7 +450,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ExampleXcode/ExampleXcode-Prefix.pch";
 				INFOPLIST_FILE = "ExampleXcode/ExampleXcode-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = ExampleXcode;
 				WRAPPER_EXTENSION = app;
 			};
@@ -462,7 +462,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ExampleXcode/ExampleXcode-Prefix.pch";
 				INFOPLIST_FILE = "ExampleXcode/ExampleXcode-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = ExampleXcode;
 				WRAPPER_EXTENSION = app;
 			};
